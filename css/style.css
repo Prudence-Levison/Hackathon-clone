@@ -1,0 +1,879 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;	
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-top: 1em;
+}
+.nav h1{
+    color: #e01212;
+    margin-left: 4em;
+    font-size: 2em;
+}
+.nav-bar a{
+    text-decoration: none; 
+    color: black;  
+    margin-left: 3em;
+    font-size: 1.3em; 
+    
+}
+.nav-bar{
+    margin-right: 4em;
+    padding-top: 1em;
+}
+#first-section{
+    background:linear-gradient(to bottom,rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.9)), url(../img/FirstSectionImage.jpg);
+    background-size: cover;
+    height: 700px;
+    background-repeat: no-repeat;
+    margin-top: 1em;
+}
+.first-section-all{
+    display: flex;
+    justify-content: space-between;
+}
+#first-section h1{
+    padding-top: 3em;
+    font-size: 5em;
+    color: #381b38;
+    padding-left: 3em;
+}
+.first-section-right{
+    padding-top: 21em;  
+    padding-right: 60em;  
+}
+.first-section-right button{
+    font-size: 1.5em;  
+    color: white; 
+    background-color: #970505; 
+    border: none;
+    padding: 1em;
+    border-radius: 2em;
+}
+#first-section p{
+    padding-left: 9em;
+    font-size: 1.7em;
+    color: #fff;
+    line-height: 2em;
+    font-weight: 300;
+    padding-top: 1em;
+}
+#second-section{
+    background-color: #e5f2f5;
+}
+.second-section-all{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 20em;
+    padding-bottom: 4em;
+}
+.second-section-right h2{
+    font-size: 1.7em;
+    color: #e01212;
+    font-weight: bold;
+}
+.second-section-right p{
+    padding-top: 1em;
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 2em;
+    padding-bottom: 1em;
+    
+}
+.second-section-right a{
+    padding-top: 1.3em;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding-bottom: 1.5em;
+}
+.second-section-left{
+    background-image: url(../img/Rectangle\ 11youtube.png);
+    background-size:800px;
+    background-repeat: no-repeat;
+    margin-left: 8em;
+    width: 100%;   
+}
+#third-section{
+  background-color: rgb(80, 165, 199);
+  padding-bottom: 2em;
+}
+.third-section-all{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 1em !important;
+    
+}
+.third-section-left{
+    padding-top: 4em;
+    padding-left: 8em;
+    color: white;  
+}
+.third-section-left h2{
+    font-size: 1.8em;
+}
+.third-section-left p{
+    font-size: 1.4em;
+    padding-top: 1.5em;
+    line-height: 2em;
+    padding-right: 6em;
+}
+
+.third-section-right{
+    background-image: url(../img/alone-buildings-city-cityscape-220444.jpg);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+}
+#fourth-section{
+    background-color: #e5f2f5;
+    
+}
+.fourth-section-all{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 1em !important;
+    
+}
+.fourth-section-left{
+    padding-top: 4em;
+    padding-left: 8em;
+}
+.fourth-section-left h2{
+    font-size: 1.8em;
+}
+.fourth-section-right{
+    padding-top: 4em;
+    padding-right: 4em;
+}
+.fourth-section-right p{
+    font-size: 1.4em;
+    line-height: 2em;
+}
+.fourth-section-right button{
+    border: none;
+    border-radius: 1em;
+    background-color: #e01212;
+    color: white;
+    padding: 1em;
+    margin-top: 4em;
+    font-size: 1.3em;
+    border-radius: 2em;
+}
+.fifth-section-all{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding-bottom: 5em !important;
+    padding-top: 5em;
+    
+}
+.fifth-section-left{
+    padding-top: 2em;
+    padding-left: 7em;
+}
+.fifth-section-left h2{
+     font-size: 4em;
+}
+.fifth-section-left h4{
+    font-size: 1.5em;
+    color: #e01212;
+    padding-top: 1em;
+}
+.fifth-section-left p{
+    font-size: 1.5em;
+    padding-top: 1em;
+    line-height: 2em;
+}
+.fifth-section-middle{
+    padding-top: 2.5em;
+    padding-left: 1.5em;
+    font-size: 5em;
+}
+.fifth-section-middle h2{
+    font-size: 1.5em;
+}
+.fifth-section-middle h4{
+    font-size: 0.3em;
+    color: #e01212;
+    padding-top: 1em;
+}
+.fifth-section-middle p{
+    font-size: 0.3em;
+    padding-top: 1em;
+    line-height: 2em;
+}
+.fifth-section-right{
+    padding-top: 3.5em;
+    padding-left: 1.5em;
+    font-size: 5em;
+}
+.fifth-section-right h2{
+    font-size: 1.5em;
+}
+.fifth-section-right h4{
+    font-size: 0.3em;
+    color: #e01212;
+    padding-top: 1em;
+}
+.fifth-section-right p{
+    font-size: 0.3em;
+    padding-top: 1em;
+    line-height: 2em;
+    padding-right: 2em;
+}
+#sixth-section{
+    background-color: #e01212;
+}
+.sixth-section-all{
+    padding-top: 7em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 6em !important   
+}
+
+.sixth-section-left h2{
+    padding-left: 3.9em;
+    color: white;
+    font-size: 2em;
+}
+.sixth-section-left h4{
+    padding-left: 6.4em;
+    color: white;
+    padding-top: 12em;
+    font-size: 1.2em;
+}
+.sixth-section-left p{
+    font-size: 1.3em;
+    color: white;
+    padding-left: 5.9em;
+    padding-top: 1em;
+    padding-right: 4em;
+    font-weight: 100;
+    line-height: 2em;
+}
+.sixth-section-left-tech h4{
+    padding-left: 6.2em;
+    color: white;
+    padding-top: 3em;
+    font-size: 1.2em;
+}
+.sixth-section-left-tech p{
+    font-size: 1.3em;
+    color: white;
+    padding-left: 5.9em;
+    padding-top: 1em;
+    font-weight: 100;
+    line-height: 2em;
+}
+.sixth-section-right h6{
+    color: white;
+    font-size: 1.3em;
+    padding-right: 8em;
+    line-height: 2em;
+    font-weight: 100 !important;
+}
+.sixth-section-right button{
+    border: none;
+    border-radius: 1em;
+    background-color: white;
+    color: #e01212;
+    padding: 1em;
+    margin-top: 4em;
+    font-size: 1.3em;
+    border-radius: 2em;
+}
+.sixth-section-right h4{
+    color: white;
+    padding-top: 4em;
+    font-size: 1.2em;
+}
+.sixth-section-right p{
+    font-size: 1.3em;
+    color: white;
+    padding-right: 6em;
+    padding-top: 1em;
+    font-weight: 100;
+    line-height: 2em;
+}
+#seventh-section{
+    background-color: #e5f2f5;
+    text-align: center;
+    padding: 3em;
+}
+#seventh-section P{
+    font-size: 1.3em;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-right: 3em;
+    line-height: 1.7em;  
+}
+#seventh-section h3{
+    font-size: 1.3em;
+    color: #e01212;
+    font-weight: 200;
+    padding-top: 1.5em;  
+}
+#seventh-section h4{
+    font-size: 1.3em;
+    color: rgb(4, 4, 117);
+    font-weight: 200;
+    padding-top: 1em;  
+}
+#seventh-section h5{
+    font-size: 1.3em;
+    color: #e01212;
+    font-weight: 500;
+    padding-top: 1em;  
+}
+#eighth-section{
+    background-color: rgb(80, 165, 199);
+}
+.eight-section-all{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      padding-bottom: 3em !important;
+  }
+.eight-section-left{
+        background-image: url(../img/alone-buildings-city-cityscape-220444.jpg);
+        background-size: 950px;
+        background-repeat: no-repeat;
+    }
+.eight-section-right{
+    padding-top: 4em;
+    color: white;  
+}
+.eight-section-right h2{
+    font-size: 2em;
+}
+.eight-section-right p{
+    font-size: 1.3em;
+    padding-top: 1em;
+    line-height: 2em;
+    padding-right: 2em;
+}
+#ninth-section{
+    background-color: #e5f2f5;
+}
+.ninth-section-all{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+.ninth-section-left{
+    padding-left: 7.7em;
+}
+.ninth-section-left h2{
+    font-size: 2em;
+}
+.ninth-section-right p{
+    padding-right: 5em;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+.ninth-section-all-first {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding-top: 5em;
+    padding-bottom: 4em;
+    padding-left: 7.8em;
+    
+}
+.ninth-section-all-first h4{
+     color: #e01212;
+     font-size: 1.3em;
+     font-weight: 200;
+}
+.ninth-section-all-first p{
+    padding-right: 3em;
+    line-height: 2em;
+    font-size: 1.3em;
+    padding-top: 1em;
+}
+.ninth-section-all-first button{
+    border: none;
+    border-radius: 1em;
+    background-color: #e01212;
+    color: white;
+    padding: 1em 1.2em;
+    margin-top: 4em;
+    font-size: 1.3em;
+    border-radius: 2em; 
+}
+footer{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding-bottom: 5em !important;
+    padding-top: 5em;
+    padding-left: 7.6em;
+    background-color: black;
+    color: white;
+}
+footer h3{
+    font-size: 1.3em;
+}
+footer p{
+    padding-top: 1em;
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+@media screen and (max-width:768px){
+    #first-section{
+        background:linear-gradient(to bottom,rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.9)), url(../img/FirstSectionImage.jpg);
+        background-size: cover;
+        height: 500px;
+        background-repeat: no-repeat;
+        margin-top: 0em;
+    }
+    .first-section-all{
+        display: flex;
+        justify-content: space-between;
+    }
+    #first-section h1{
+        padding-top: 4em;
+        font-size: 2em;
+        color: #381b38;
+        padding-left: 1.5em;
+    }
+.first-section-right{
+        padding-top: 13em;  
+        padding-right: 12em;  
+    }
+.first-section-right button{
+        font-size: 0.7em;  
+        color: white; 
+        background-color: #970505; 
+        border: none;
+        padding: 1em;
+        border-radius: 2em;
+    }
+#first-section p{
+        padding-left: 2.7em;
+        font-size: 1.1em;
+        color: #fff;
+        line-height: 1.5em;
+        font-weight: 300;
+        padding-top: 1em;
+    }
+#second-section{
+        background-color: #e5f2f5;
+    }
+.second-section-all{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 10em;
+        padding-bottom: 3em;
+    }
+.second-section-right h2{
+        font-size: 1.2em;
+        color: #e01212;
+        font-weight: bold;
+}
+.second-section-right p{
+        padding-top: 1em;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 2em;
+        padding-bottom: 1em;
+        padding-right: 2em;
+    }
+ .second-section-right a{
+        padding-top: 1em;
+        font-size: 1em;
+        font-weight: 300;
+        padding-bottom: 1em;
+    }
+.second-section-left{
+        background-image: url(../img/Rectangle\ 11youtube.png);
+        background-size:300px;
+        background-repeat: no-repeat;
+        margin-left: 3em;
+        width: 100%;   
+    }
+#third-section{
+        background-color: rgb(80, 165, 199);
+        padding-bottom: 2em;
+    }
+.third-section-all{
+          display: grid;
+          grid-template-columns: 50% 50%;
+          padding-bottom: 1em !important;
+}
+.third-section-left{
+          padding-top: 4em;
+          padding-left: 3em;
+          color: white;  
+ }
+.third-section-left h2{
+          font-size: 1.2em;
+}
+ .third-section-left p{
+          font-size: 1em;
+          padding-top: 1em;
+          line-height: 2em;
+          padding-right: 2em;
+ }
+      
+.third-section-right{
+          background-image: url(../img/alone-buildings-city-cityscape-220444.jpg);
+          background-size: 1050px;
+          background-repeat: no-repeat;
+      }
+
+.fourth-section-left{
+        padding-top: 4em;
+        padding-left: 3em;
+    }
+.fourth-section-left h2{
+        font-size: 1.2em;
+    }
+    .fourth-section-right{
+        padding-top: 4em;
+        padding-right: 2em;
+    }
+    .fourth-section-right p{
+        font-size: 1em;
+        line-height: 2em;
+    }
+    .fourth-section-right button{
+        border: none;
+
+        background-color: #e01212;
+        color: white;
+        padding: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+        border-radius: 2em;
+    }
+    .fifth-section-all{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        padding-bottom: 5em !important;
+        padding-top: 3em;
+        
+    }
+    .fifth-section-left{
+        padding-top: 0em;
+        padding-left: 2.9em;
+    }
+    .fifth-section-left h2{
+         font-size: 2em;
+    }
+    .fifth-section-left h4{
+        font-size: 0.9em;
+        color: #e01212;
+        padding-top: 1em;
+        line-height: 2em;
+    }
+    .fifth-section-left p{
+        font-size: 1em;
+        padding-top: 1em;
+        line-height: 2em;
+    }
+    .fifth-section-middle{
+        padding-top: 0.8em;
+        padding-left: 0.7em;
+        font-size: 5em;
+    }
+    .fifth-section-middle h2{
+        font-size: 0.4em;
+    }
+    .fifth-section-middle h4{
+        font-size: 0.18em;
+        color: #e01212;
+        padding-top: 1em;
+        line-height: 2em;
+    }
+    .fifth-section-middle p{
+        font-size: 0.19em;
+        padding-top: 1em;
+        line-height: 2em;
+    }
+    .fifth-section-right{
+        padding-top: 1.5em;
+        padding-left: 0.7em;
+        font-size: 5em;
+    }
+    .fifth-section-right h2{
+        font-size: 0.4em;
+    }
+    .fifth-section-right h4{
+        font-size: 0.18em;
+        color: #e01212;
+        padding-top: 1em;
+        line-height: 2em;
+    }
+    .fifth-section-right p{
+        font-size: 0.19em;
+        padding-top: 1em;
+        line-height: 2em;
+        padding-right: 2em;
+    }
+
+    .sixth-section-all{
+        padding-top: 5em;  
+        padding-bottom: 3em !important   
+    }
+    
+    .sixth-section-left h2{
+        padding-left: 2.1em;
+        color: white;
+        font-size: 1.4em;
+    }
+    .sixth-section-left h4{
+        padding-left: 3em;
+        color: white;
+        padding-top: 16em;
+        font-size: 1em;
+    }
+    .sixth-section-left p{
+        font-size: 1em;
+        color: white;
+        padding-left: 2.9em;
+        padding-top: 1em;
+        padding-right: 4em;
+        font-weight: 100;
+        line-height: 2em;
+    }
+    .sixth-section-left-tech h4{
+        padding-left: 3em;
+        color: white;
+        padding-top: 3em;
+        font-size: 1em;
+    }
+    .sixth-section-left-tech p{
+        font-size: 1em;
+        color: white;
+        padding-left: 3em;
+        padding-top: 1em;
+        font-weight: 100;
+        line-height: 2em;
+    }
+    .sixth-section-right h6{
+        color: white;
+        font-size: 1em;
+        padding-right: 4em;
+        line-height: 2em;
+        font-weight: 100 !important;
+    }
+    .sixth-section-right button{
+        border: none;
+        border-radius: 1em;
+        background-color: white;
+        color: #e01212;
+        padding: 1em;
+        margin-top: 4em;
+        font-size: 1em;
+        border-radius: 2em;
+    }
+    .sixth-section-right h4{
+        color: white;
+        padding-top: 4.5em;
+        font-size: 1em;
+    }
+    .sixth-section-right p{
+        font-size: 1em;
+        color: white;
+        padding-right: 3em;
+        padding-top: 1em;
+        font-weight: 100;
+        line-height: 2em;
+    }
+    .math{
+        padding-top: 7em;
+    }
+    #seventh-section{
+        padding: 2em;
+    }
+    #seventh-section P{
+        font-size: 1em;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-right: 2em;
+        line-height: 2em;  
+    }
+    #seventh-section h3{
+        font-size: 1em;
+        color: #e01212;
+        font-weight: 200;
+        padding-top: 1.5em;  
+    }
+    #seventh-section h4{
+        font-size: 1em;
+        color: rgb(4, 4, 117);
+        font-weight: 200;
+        padding-top: 1.5em;  
+    }
+    #seventh-section h5{
+        font-size: 1em;
+        color: #e01212;
+        font-weight: 500;
+        padding-top: 1.5em;  
+    }
+    
+    .eight-section-all{
+          padding-bottom: 2em !important;
+      }
+    .eight-section-left{
+            background-image: url(../img/alone-buildings-city-cityscape-220444.jpg);
+            background-size: 900px;
+            background-repeat: no-repeat;
+        }
+    .eight-section-right{
+        padding-top: 3em;
+        color: white;  
+        padding-left: 2em;
+    }
+    .eight-section-right h2{
+        font-size: 1.4em;
+    }
+    .eight-section-right p{
+        font-size: 1em;
+        padding-top: 1em;
+        line-height: 2em;
+        padding-right: 2em;
+    }
+    .ninth-section-all{
+         padding-bottom: 3em;
+    }
+    .ninth-section-left{
+        padding-left: 3em;
+    }
+    .ninth-section-left h2{
+        font-size: 1.4em;
+    }
+    .ninth-section-right p{
+        padding-right: 2em;
+        font-size: 1em;
+        line-height: 2em;
+    }
+    .ninth-section-all-first {
+        padding-top: 3em;
+        padding-bottom: 4em;
+        padding-left: 3.3em;
+        
+    }
+    .ninth-section-all-first h4{
+         color: #e01212;
+         font-size: 1.1em;
+         font-weight: 200;
+         line-height: 2em;
+    }
+    .ninth-section-all-first p{
+        padding-right: 2em;
+        line-height: 2em;
+        font-size: 1em;
+        padding-top: 1em;
+    }
+    .ninth-section-all-first button{
+        border: none;
+        border-radius: 1em;
+        background-color: #e01212;
+        color: white;
+        padding: 1em 1.2em;
+        margin-top: 4em;
+        font-size: 1em;
+        border-radius: 2em; 
+    }
+    .donate p{
+        padding-top: 3em;
+    }
+    .volunteer button{
+        margin-top: 6em;
+    }
+    footer{
+         padding-bottom: 3em !important;
+        padding-top: 3em;
+        padding-left: 3em;
+        background-color: black;
+        color: white;
+        grid-column-gap: 2em;
+    }
+    footer h3{
+        font-size: 1em;
+    }
+    footer p{
+        padding-top: 1em;
+        font-size: 1em;
+        line-height: 2em;
+    }
+}
+@media screen and (max-width:480px){
+    #first-section{
+        background:linear-gradient(to bottom,rgba(0, 0, 0,0.5),rgba(0, 0, 0, 0.9)), url(../img/FirstSectionImage.jpg);
+        background-size: cover;
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-top: 0em;
+    }
+    .first-section-all{
+       display: block;
+    }
+    #first-section h1{
+        padding-top: 2em;
+        font-size: 2em;
+        color: #381b38;
+        padding-left: 1em;
+    }
+.first-section-right{
+        padding-top: 1em;  
+        padding-right: 0em;
+        padding-left: 2em;  
+    }
+.first-section-right button{
+        font-size: 0.8em;  
+        color: white; 
+        background-color: #970505; 
+        border: none;
+        padding: 1em;
+        border-radius: 2em;
+    
+    }
+#first-section p{
+        padding-left: 2em;
+        font-size: 1em;
+        color: #fff;
+        line-height: 2em;
+        font-weight: 300;
+        padding-top: 1em;
+    }
+    .first-paragraph{
+        display: none;
+    }
+    .second-section-all{
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+    .second-section-right h2{
+        font-size: 1.2em;
+        color: #e01212;
+        font-weight: bold;
+    }
+    .second-section-right p{
+        padding-top: 1em;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 2em;
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+        padding-left: 2em;
+    }
+    .second-section-right a{
+        padding-top: 1.3em;
+        font-size: 1em;
+        font-weight: 300;
+        padding-bottom: 1.5em;
+    }
+    .second-section-left{
+        display: none;   
+    }
+    
+}
